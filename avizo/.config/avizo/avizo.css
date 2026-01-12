@@ -1,0 +1,31 @@
+window {
+    /* Mocha Base háttér enyhe áttetszőséggel */
+    background-color: rgba(30, 30, 46, 0.9);
+    border-radius: 16px;
+    /* Mocha Lavender vagy Flamingo keret az eleganciáért */
+    border: 2px solid #f2cdcd;
+}
+
+label {
+    /* Mocha Text szín */
+    color: #cdd6f4;
+    font-family: "JetBrains Mono", "sans-serif";
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+progress, trough {
+    border-radius: 8px;
+    border: none;
+    min-height: 10px;
+}
+
+trough {
+    /* Sötétebb felület a csúszkának */
+    background-color: #313244;
+}
+
+progress {
+    /* Ez a lényeg: a Flamingo szín */
+    background-color: #f2cdcd;
+}
